@@ -4,6 +4,7 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Teams from "./pages/Teams";
 import Contact from "./pages/Contact";
+import ScrapeContent from "./pages/ScrapeContent";
 import NoPage from "./pages/NoPage";
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="teams" element={<Teams />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="scrape-content" element={<ScrapeContent />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
